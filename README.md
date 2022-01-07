@@ -35,7 +35,7 @@ Stock trading/finance social media web application built while learning Ruby on 
 
 ### Built With
 
-* [Ruby on Rails](https://rubyonrails.org/)
+* [Ruby on Rails (Version 6.1.4.4)](https://rubyonrails.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
