@@ -13,9 +13,9 @@
             <strong>Email: </strong><%= friend.email %>
             <strong><%= link_to 'View Profile', '#', class: 'btn btn-sm btn-success' %></strong>
             <% if current_user.not_friends_with?(friend.id) %>
-              <%= link_to 'Follow', '#', class: 'btn btn-sm btn-success', method: :post%> 
+              <%= link_to "Follow", friendship_path(friend), class: 'btn btn-sm btn-primary' %>
             <% else %>
-              <%= link_to 'Unfollow', '#', class: 'btn btn-sm btn-warning', method: :post%> 
+              <%= link_to "Unfollow", friendship_path(friend), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-sm btn-warning' %>
             <% end %>
           </td>
         </tr>
