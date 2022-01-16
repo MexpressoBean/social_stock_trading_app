@@ -10,9 +10,8 @@
   <p align="center">
     Stock trading/finance social media web application built while learning Ruby on Rails.
     <br />
-    <!-- <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://social-stock-trades-6.herokuapp.com/">View Demo</a>
+    <!-- <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
   </p>
@@ -37,6 +36,7 @@ Stock trading/finance social media web application built while learning Ruby on 
 
 * [Ruby on Rails (Version 6.1.4.4)](https://rubyonrails.org/)
 * Bootstrap (https://getbootstrap.com/)
+* Deployed to [Heroku](https://www.heroku.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
